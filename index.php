@@ -1,6 +1,8 @@
 <?php
-			include 'template/template.php';
-			echo $header;
-			echo $main;
-			echo $footer;
-		?>
+
+$pageTitle = 'Home';
+$sectionOneHeader = '';
+$sectionOneContent = '';
+$sectionTwoHeader = '';
+$sectionTwoContent = '';
+include './template.php';
