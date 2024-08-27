@@ -1,7 +1,7 @@
 <?php ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>PHP Template Assignment 2 - <?php print $pageTitle; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
@@ -15,7 +15,7 @@
     <?php
     if ($sectionOneHeader !== '') {
       print "<h2>$sectionOneHeader</h2>";
-      print "<section>$sectionOneContent</section>";
+      print "<div>$sectionOneContent</div>";
     }
 
     if ($sectionTwoHeader !== '') {

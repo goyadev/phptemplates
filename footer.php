@@ -1,5 +1,3 @@
-<?php ?>
-
 <footer>
-    <p>hound copyright 2024</p>
+    <p>hound copyright <?php echo date("Y"); ?></p>
 </footer>

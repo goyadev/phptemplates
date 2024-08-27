@@ -17,7 +17,7 @@ $sectionOneContent = '
             id="full-name"
             placeholder="First and Last"
             required=""
-          />
+          >
           <label for="email-address">Email</label>
           <input
             type="email"
@@ -25,7 +25,7 @@ $sectionOneContent = '
             id="email-address"
             placeholder="email@yourname.com"
             required=""
-          />
+          >
           <label for="message">Message</label>
           <textarea
             rows="5"
@@ -39,7 +39,7 @@ $sectionOneContent = '
             name="_subject"
             id="email-subject"
             value="Contact Form Submission"
-          />
+          >
         </fieldset>
         <button type="submit" value="Submit">Submit</button>
       </form>';
