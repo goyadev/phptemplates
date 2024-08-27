@@ -1,5 +1,5 @@
 <?php ?>
 
 <footer>
-    <p>Greyhound Gallery Copyright 2024</p>
+    <p>hound copyright 2024</p>
 </footer>

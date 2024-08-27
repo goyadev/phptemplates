@@ -8,14 +8,14 @@
 
 <body>
   <section>
-    <h1>Greyhound Gallery - <?php print $pageTitle; ?><h1>
-        <?php include "./nav.php"; ?>
+    <h1>hound - <?php print $pageTitle; ?></h1>
+    <?php include "./nav.php"; ?>
   </section>
   <section>
     <?php
     if ($sectionOneHeader !== '') {
       print "<h2>$sectionOneHeader</h2>";
-      print "<p>$sectionOneContent</p>";
+      print "<section>$sectionOneContent</section>";
     }
 
     if ($sectionTwoHeader !== '') {
